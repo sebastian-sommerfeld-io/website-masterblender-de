@@ -1,14 +1,24 @@
 = Master Blender
+// https://docs.asciidoctor.org/reveal.js-converter/latest/
 :revealjs_theme: moon
 
-== Was macht ein Master Blender?
-Master Blender tragen eine große Verantwortung auf ihren Schultern. Sie sind es, die dafür sorgen, dass jede Flasche einer Whisky-Abfüllung über Jahre den gleichen Geschmack aufweist und den typischen Charakter der Destillerie in sich trägt. Doch wie schafft ein Master Blender dieses Kunststück überhaupt und welche besonderen Eigenschaften zeichnen ihn aus?
+== Ehre wem Ehre gebührt
+image:images/2.jpg[]
 
-== Lorem ipsum dolor
-Es ist der Master Blender, der unter den zahlreichen Whiskyfässern in den Warehouses den Überblick behält.
+== Veterano Osbourne
+Ein Getränk für besondere Genießer, die dem Bier entsagen und den besonderen Geschmack erleben möchten.
 
-=== Lorem ipsum dolor
-Neben dem eigentlichen Blenden von Whiskys ist ein Master Blender dafür verantwortlich, die reifenden Whiskys zu überwachen und zu entwickeln. Hierzu gehört auch die Whiskyfässer regelmäßig stichprobenartig zu überprüfen. Hierbei muss er unter anderem entscheiden, ob ein Whisky bereits reif für die Abfüllung ist oder von einer längeren Lagerung weiter profitieren wird oder sogar für ein Finish in ein anderes Whiskyfass umgelagert werden soll.
+Veterano Osbourne wird bei Zimmertemparatur serviert. Kenner veredeln mit kalter Cola und Eis.
 
-== Some more stuff
-Dabei muss ein Master Blender jedoch auch stets den Blick in die Zukunft richten. Schließlich müssen die Whisky-Bestände auf Jahrzehnte im Voraus geplant und Entwicklungen frühzeitig angeschoben werden. Whisky, der nicht 10, 15 oder 20 Jahre vorher destilliert und eingelagert wurde, fehlt später. Ein gutes Fass-Management in den Warehouses ist also das A und O.
+== Welche Aufgaben hat der Master Blender?
+Der Master Blender trägt eine große Verantwortung auf seinen Schultern.
+
+Die Aufgabe des Master Blender ist das korrekte Einhalten des Mischverhältnis von Osbourne und Cola. Er ist es, der dafür sorgt, dass jedes Glas über Stunden den gleichen Geschmack aufweist.
+
+=== Erfahrung ist das Wichtigste
+Doch wie schafft ein Master Blender dieses Kunststück überhaupt und welche besonderen Eigenschaften zeichnen ihn aus?
+
+Jahrelange Erfahrung im Mischen von Osbourne mit Cola ist essenziell, um dieser verantwortungsvollen Aufgabe gerecht zu werden und ein konstantes Mischverhältnis sicherzustellen. Dabei spielt die Größe des Glases nur eine untergeordnete Rolle.
+
+=== Eine besondere Aufgabe
+Dabei muss ein Master Blender jedoch auch stets den Blick in die Zukunft richten. Es ist der Master Blender, der unter den zahlreichen Gläsern den Überblick behält und den Füllstand überwacht. Ein gutes Glas-Management ist also das A und O.
