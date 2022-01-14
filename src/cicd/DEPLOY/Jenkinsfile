@@ -86,12 +86,7 @@ pipeline {
             parallel {
                 stage("prepare::install-node-modules") {
                     steps {
-                        sh "npm install"
-                        sh "npm install mkdirp@latest"
-                        sh "npm install antora-site-generator-lunr"
-                        sh "npm install --global asciidoctor @asciidoctor/reveal.js"
-
-                        // Install reveal to publish with landingpage
+                        // Install reveal to publish with website
                         sh "npm install reveal.js@4.2.1"
                     }
                 }
