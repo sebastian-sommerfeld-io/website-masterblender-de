@@ -1,13 +1,11 @@
 = Master Blender
 :revealjs_theme: black
 
-Lorem ipsum dolor sit amet.
-
 == Welcome
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+Master Blender tragen eine große Verantwortung auf ihren Schultern. Sie sind es, die dafür sorgen, dass jede Flasche einer Whisky-Abfüllung über Jahre den gleichen Geschmack aufweist und den typischen Charakter der Destillerie in sich trägt. Doch wie schafft ein Master Blender dieses Kunststück überhaupt und welche besonderen Eigenschaften zeichnen ihn aus?
 
 === Lorem ipsum dolor
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+Es ist der Master Blender, der unter den zahlreichen Whiskyfässern in den Warehouses den Überblick behält. Neben dem eigentlichen Blenden von Whiskys ist ein Master Blender dafür verantwortlich, die reifenden Whiskys zu überwachen und zu entwickeln. Hierzu gehört auch die Whiskyfässer regelmäßig stichprobenartig zu überprüfen. Hierbei muss er unter anderem entscheiden, ob ein Whisky bereits reif für die Abfüllung ist oder von einer längeren Lagerung weiter profitieren wird oder sogar für ein Finish in ein anderes Whiskyfass umgelagert werden soll.
 
 == Some more stuff
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Dabei muss ein Master Blender jedoch auch stets den Blick in die Zukunft richten. Schließlich müssen die Whisky-Bestände auf Jahrzehnte im Voraus geplant und Entwicklungen frühzeitig angeschoben werden. Whisky, der nicht 10, 15 oder 20 Jahre vorher destilliert und eingelagert wurde, fehlt später. Ein gutes Fass-Management in den Warehouses ist also das A und O.
