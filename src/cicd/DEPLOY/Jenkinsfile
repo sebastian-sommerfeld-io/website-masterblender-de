@@ -86,7 +86,9 @@ pipeline {
             parallel {
                 stage("prepare::install-node-modules") {
                     steps {
-                        // Install reveal to publish with website
+                        sh "npm install --global asciidoctor @asciidoctor/reveal.js"
+
+                        // Install reveal to publish with landingpage
                         sh "npm install reveal.js@4.2.1"
                     }
                 }
