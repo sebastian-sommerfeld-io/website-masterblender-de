@@ -1,5 +1,2 @@
 * xref:index.adoc[API Docs: Bash Scripts]
-** xref:install-node-modules.adoc[install-node-modules.sh]
-** xref:run-local-blog.adoc[run-local-blog.sh]
-** xref:run-local-docs.adoc[run-local-docs.sh]
-** xref:run.adoc[run.sh]
+** xref:run-local.adoc[run-local.sh]
