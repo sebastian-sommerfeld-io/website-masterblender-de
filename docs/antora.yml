@@ -1,0 +1,8 @@
+---
+name: website-masterblender-docs
+title: Website Master Blender Docs
+version: main
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/api-docs-bash/nav.adoc

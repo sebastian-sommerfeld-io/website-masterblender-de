@@ -1,12 +1,31 @@
-# You can override the included template(s) by including variable overrides
-# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
-# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
-# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
-# Note that environment variables can be set in several places
-# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
+---
+image: docker:stable
+
 stages:
-- test
-sast:
-  stage: test
-include:
-- template: Security/SAST.gitlab-ci.yml
+  - verify
+
+yamllint:
+  image: registry.gitlab.com/pipeline-components/yamllint:latest
+  stage: verify
+  except:
+    - tags
+  script:
+    - yamllint .
+
+lint-directory-structure:
+  image: node:latest
+  stage: verify
+  before_script:
+    - npm install --global folderslint
+  script:
+    - folderslint
+
+shell-check:
+  image: koalaman/shellcheck-alpine:stable
+  stage: verify
+  except:
+    - tags
+  before_script:
+    - shellcheck --version
+  script:
+    - shellcheck *.sh

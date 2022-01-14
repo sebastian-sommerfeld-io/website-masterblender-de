@@ -1,0 +1,115 @@
+= run.sh
+Jenkins Pipeline <sebastian@sommerfeld.io>
+:page-toclevels: 1
+
+Actual implementation to build Antora pages and start a local webserver.
+
+== Overview
+
+The script generates all assets for the given website and starts a local webserver. The script is invoked by run-local-blog.sh and run-local-docs.sh.
+
+IMPORTANT: Don’t run this script directly. Use a fassade script which passes all parameters instead. If one or more parameters are missing, the script will fail!
+
+=== Arguments
+
+All arguments are expected as export parameters (`export PARAM_NAME="value"`). All parameters are mandatory.
+
+* _PLAYBOOK_ (String): The name of the playbook file (with path)
+* _WEBSERVER_PORT_ (String): The port for the local webserver to publish the generated site
+* _TARGET_DIR_ (String): The directory where all generated assets are stored
+* _BANNER_FILE_ (String): The name of the banner file (with path) which is shown when this script is invoked
+
+== Index
+
+* link:#_checkparams[checkParams()]
+* link:#_prepare[prepare()]
+* link:#_krokistart[krokiStart()]
+* link:#_krokistop[krokiStop()]
+* link:#_builddocs[buildDocs()]
+* link:#_startwebserver[startWebserver()]
+
+== checkParams()
+
+Check if all export parameters which should be passed to this script are present or missing. The first param, that is missing, causes the whole script to exit.
+
+=== Example
+
+[source,bash]
+----
+checkParams
+----
+
+=== Exit codes
+
+* *1*: If at least one export parameter is missing
+
+== prepare()
+
+Prepare filesystem for Antora build and local webserver (setup target directory). Global export parameters are needed.
+
+=== Example
+
+[source,bash]
+----
+prepare
+----
+
+== krokiStart()
+
+Start local kroki server in docker container for antora build.
+
+=== Example
+
+[source,bash]
+----
+krokiStart "kroki-server"
+----
+
+=== Arguments
+
+* *$1* (String): containerName
+
+=== Exit codes
+
+* *1*: If argument containerName is missing
+
+== krokiStop()
+
+Stop local kroki server in docker container.
+
+=== Example
+
+[source,bash]
+----
+krokiStart "kroki-server"
+----
+
+=== Arguments
+
+* *$1* (String): containerName
+
+=== Exit codes
+
+* *1*: If argument containerName is missing
+
+== buildDocs()
+
+Build the Antora website. Global export parameters are needed.
+
+=== Example
+
+[source,bash]
+----
+buildDocs
+----
+
+== startWebserver()
+
+Start a local webserver to access docs page on localhost. Global export parameters are needed.
+
+=== Example
+
+[source,bash]
+----
+startWebserver
+----
