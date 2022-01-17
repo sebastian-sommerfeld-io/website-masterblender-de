@@ -1,6 +1,6 @@
 = Website Master Blender Docs Startpage
 Sebastian Sommerfeld <sebastian@sommerfeld.io>
-:url-project: https://gitlab.com/sommerfeld.dev/website
+:url-project: https://gitlab.com/sommerfeld.sebastian/website-masterblender-de
 :url-ci-pipelines: {url-project}/pipelines
 :img-ci-status: {url-project}/badges/main/pipeline.svg
 
