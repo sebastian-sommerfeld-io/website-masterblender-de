@@ -118,7 +118,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           image: sommerfeldio/website-masterblender-de:${{ steps.vars.outputs.DOCKER_TAG }}
-          args: --file=src/main/Dockerfile
+          args: --file=Dockerfile
 
       - name: Upload snyk result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v2

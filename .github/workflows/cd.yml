@@ -36,12 +36,7 @@ jobs:
     needs: check-links-in-adoc-files
     permissions:
       contents: read
-    strategy:
-      matrix:
-        playbook:
-          - docker-images
-          - github-actions
-          - projects
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
