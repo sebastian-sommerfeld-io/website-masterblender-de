@@ -1,6 +1,6 @@
 ---
 name: website-masterblender-docs
-title: Website Master Blender Docs
+title: Website Masterblender Docs
 version: main
 start_page: ROOT:index.adoc
 nav:
