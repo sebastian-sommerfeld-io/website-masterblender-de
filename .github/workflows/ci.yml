@@ -65,6 +65,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Build HTML pages
+        run: |
+          SRC_DIR="src/main"
+          TARGET_DIR="target/content"
+
+          docker run --rm --volume "$(pwd):/documents" asciidoctor/docker-asciidoctor:latest \
+            asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 "$SRC_DIR/index.adoc"
+
+          rm -rf "$TARGET_DIR"
+          mkdir -p "$TARGET_DIR"
+
+          mv "$SRC_DIR/index.html" "$TARGET_DIR/index.html"
+          cp -a "$SRC_DIR/images" "$TARGET_DIR"
+
       - name: Set docker tag ('ci-build' for main or feature branch, 'release-candidate' for release branch)
         id: vars
         run: |

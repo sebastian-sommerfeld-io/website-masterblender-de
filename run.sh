@@ -19,11 +19,11 @@
 MOUNT_POINT="/documents"
 TARGET_DIR="target/content"
 SRC_DIR="src/main"
-DOCKER_IMAGE="pegasus/website-tafelboy:dev"
+DOCKER_IMAGE="local/website-masterblender:dev"
 
 
 echo -e "$LOG_INFO Build reveal-js pages"
-docker run --rm -it --volume "$(pwd):/$MOUNT_POINT" asciidoctor/docker-asciidoctor:latest \
+docker run --rm -it --volume "$(pwd):$MOUNT_POINT" asciidoctor/docker-asciidoctor:latest \
   asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 "$SRC_DIR/index.adoc"
 
 echo -e "$LOG_INFO Prepare target directory"
