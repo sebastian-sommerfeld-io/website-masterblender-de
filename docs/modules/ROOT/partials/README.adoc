@@ -2,6 +2,8 @@ Website contents for www.masterblender.de
 
 image:{github-actions-url}/{job-generate-docs}/{badge}[Github Badge, link={github-actions-url}/{job-generate-docs}]
 image:{github-actions-url}/{job-ci}/{badge}[Github Badge, link={github-actions-url}/{job-ci}]
+image:{github-actions-url}/{job-cd}/{badge}[Github Badge, link={github-actions-url}/{job-cd}]
+image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-actions-url}/{job-release}]
 
 * Github Repository -> {url-project}
 // * Documentation -> https://www.sommerfeld.io/docs/projects/{project-name}-docs/main
