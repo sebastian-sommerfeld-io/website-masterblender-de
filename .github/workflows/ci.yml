@@ -92,7 +92,7 @@ jobs:
           fi
 
           echo "tag = $TAG"
-          echo "DOCKER_TAG::$TAG" >> $GITHUB_OUTPUT
+          echo "DOCKER_TAG=$TAG" >> $GITHUB_OUTPUT
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
