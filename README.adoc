@@ -1,4 +1,4 @@
-= Website Masterblender.de Docs
+= Website Masterblender.de
 Sebastian Sommerfeld <sebastian@sommerfeld.io>
 :project-name: website-masterblender-de
 :url-project: https://github.com/sebastian-sommerfeld-io/{project-name}
