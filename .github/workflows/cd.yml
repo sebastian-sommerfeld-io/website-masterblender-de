@@ -1,5 +1,5 @@
 ---
-name: Continuous Deployment
+name: Deploy
 
 on:
   push:

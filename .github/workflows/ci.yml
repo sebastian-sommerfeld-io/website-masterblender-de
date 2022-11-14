@@ -106,7 +106,7 @@ jobs:
       - name: Docker image build
         uses: docker/build-push-action@v3
         with:
-          context: ./src/main
+          context: ./
           platforms: linux/amd64
           push: true
           tags: sommerfeldio/website-masterblender-de:${{ steps.vars.outputs.DOCKER_TAG }}
