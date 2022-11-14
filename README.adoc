@@ -32,7 +32,7 @@ image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-acti
 == About this image
 Image for the website www.masterblender.de.
 
-CUTION: The image is not used in production. The actual website is hosted traditionally.
+CAUTION: The image is not used in production. The actual website is hosted traditionally.
 
 == How to use this image
 [source, bash]
