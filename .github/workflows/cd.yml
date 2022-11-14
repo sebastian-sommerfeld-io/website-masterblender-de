@@ -71,7 +71,7 @@ jobs:
           docker run -i --rm \
             --volume "$(pwd):$(pwd)" \
             --workdir "$(pwd)" \
-            sommerfeldio/ftp-client:latest ncftpput -R -v -u "${{ secrets.FTP_USER }}" -p "${{ secrets.FTP_PASS }}" "$FTP_HOST" /docs/${{ matrix.playbook }} *
+            sommerfeldio/ftp-client:latest ncftpput -R -v -u "${{ secrets.FTP_USER }}" -p "${{ secrets.FTP_PASS }}" "$FTP_HOST" / *
 
   on-failure:
     runs-on: ubuntu-latest
