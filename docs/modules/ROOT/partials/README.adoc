@@ -9,6 +9,17 @@ image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-acti
 // * Documentation -> https://www.sommerfeld.io/docs/projects/{project-name}-docs/main
 * Where to file issues -> {url-project}/issues
 
+== About this image
+Image for the website www.masterblender.de.
+
+CUTION: The image is not used in production. The actual website is hosted traditionally.
+
+== How to use this image
+[source, bash]
+----
+docker run --rm -it -p 8000:80 sommerfeldio/website-masterblender-de:latest
+----
+
 == Risks and Technical Debts
 Scale for Probability and Impact: Low, Medium and High
 
