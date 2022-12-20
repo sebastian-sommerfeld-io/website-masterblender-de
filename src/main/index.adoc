@@ -1,5 +1,4 @@
 = Masterblender
-// https://docs.asciidoctor.org/reveal.js-converter/latest/
 :revealjs_theme: moon
 
 == Ehre wem Ehre gebührt
