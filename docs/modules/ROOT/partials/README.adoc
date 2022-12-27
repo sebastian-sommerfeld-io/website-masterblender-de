@@ -1,4 +1,4 @@
-Website contents for www.masterblender.de
+Website contents for link:http://www.masterblender.de[www.masterblender.de].
 
 image:{github-actions-url}/{job-generate-docs}/{badge}[Github Badge, link={github-actions-url}/{job-generate-docs}]
 image:{github-actions-url}/{job-ci}/{badge}[Github Badge, link={github-actions-url}/{job-ci}]
@@ -10,7 +10,7 @@ image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-acti
 * Where to file issues -> {url-project}/issues
 
 == About this image
-Image for the website www.masterblender.de.
+Image for the website link:http://www.masterblender.de[www.masterblender.de].
 
 CAUTION: The image is not used in production. The actual website is hosted traditionally.
 
